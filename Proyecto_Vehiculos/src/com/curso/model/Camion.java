@@ -3,9 +3,7 @@ package com.curso.model;
 import java.util.ArrayList;
 import java.util.List;
 
-import src.curso.interfaz.Conducible;
-
-public class Camion extends Vehiculo implements Conducible {
+public class Camion extends Vehiculo {
 
 	private List<Integer> tacometro;
 	private int ruedas;

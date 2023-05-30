@@ -1,8 +1,6 @@
 package com.curso.model;
 
-import src.curso.interfaz.Conducible;
-
-public class Coche extends Vehiculo implements Conducible {
+public class Coche extends Vehiculo {
 
 	private final static int RUEDAS = 4;
 

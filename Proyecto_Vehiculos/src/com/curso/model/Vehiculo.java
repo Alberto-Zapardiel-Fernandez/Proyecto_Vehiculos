@@ -1,6 +1,8 @@
 package com.curso.model;
 
-public abstract class Vehiculo {
+import com.curso.interfaz.Conducible;
+
+public abstract class Vehiculo implements Conducible {
 
 	private String color;
 	private String matricula = "";

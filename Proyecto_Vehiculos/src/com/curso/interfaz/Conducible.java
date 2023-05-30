@@ -1,4 +1,4 @@
-package src.curso.interfaz;
+package com.curso.interfaz;
 
 public interface Conducible {
 

@@ -1,8 +1,6 @@
 package com.curso.model;
 
-import src.curso.interfaz.Conducible;
-
-public class Barco extends Vehiculo implements Conducible {
+public class Barco extends Vehiculo {
 
 	public Barco(String color, String matricula) {
 		super(color, matricula);
